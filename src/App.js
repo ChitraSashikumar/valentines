@@ -5,7 +5,6 @@ function App() {
   const [isInitial, setIsInitial] = useState(true);
   const [response, setReponse] = useState(null);
   const [nahCount, setNahCount] = useState(0);
-  const [position, setPosition] = useState({ x: 0, y: 0 });
   const buttonRef = useRef(null);
 
   const handleButton = () => {
